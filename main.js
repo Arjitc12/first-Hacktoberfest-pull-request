@@ -1,6 +1,6 @@
 var button=document.querySelector("button");
 var filled=false;
-button.addEventListener("click",function(){
+button.addEventListener("click",()=>{
 	//alert('connected');
 	if(filled)
 		document.body.style.background="blue";
